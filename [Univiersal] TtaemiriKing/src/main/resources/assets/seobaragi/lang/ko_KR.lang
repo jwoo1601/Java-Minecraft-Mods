@@ -1,0 +1,67 @@
+﻿
+#CreativeTab
+itemGroup.tabSeoneng=§l§d때밀이왕
+
+
+#Items
+item.seonengIcon.name=§b아이콘
+item.seonengWand.name=§d문어스틱 §f완드
+
+item.dirtResetItem.name=§b빛나는 때밀이수건
+item.gaugeResetItem.name=§b한정판 넹로나민C
+item.waterResetItem.name=§b빛나는 우유
+
+item.ttaemiriTowel.name=때밀이 수건
+item.soap.name=비누
+item.towel.name=수건
+item.dirtChunk.name=때
+
+item.barleyStoneEgg.name=맥반석 계란
+item.seonengMilk.name=우유
+item.sikhye.name=식혜
+item.nenglonaminC.name=§6넹로나민C
+
+item.proximityOnlyDust.name=§9[근접용] §f먼지
+item.throwableDust.name=§9[투척용] §f먼지
+
+
+#Item Information
+info.Dust_TypeA=§8아이템을 들고 상대방을 때리세요!
+info.Dust_TypeB=§8아이템을 들고 상대방을 향해 던지세요!
+info.DirtChunk=의 때
+info.Reset_TypeA=§a아이템 사용시 매우 깨끗해집니다.
+info.Reset_TypeB=§a아이템 사용시 갈증이 완전히 해소됩니다.
+info.Reset_TypeC=§a아이템 사용시 피로가 완전히 사라집니다.
+info.Reset_TypeC1=§6한전판으로 출시된 넹로나민C!!
+
+#Message
+Title.SeoBaragi=때밀이왕
+
+message.Hungry=§c당신은 매우 배가 고픕니다.
+message.Thirsty=§c당신은 매우 목이 마릅니다.
+
+message.Error1=§4[Error] Code1 : §cWrong Condition
+
+message.KickOut=§c당신은 매우 더러워서 목욕탕에서 쫓겨났습니다.
+message.NeedFood=§c배가 고파서 때를 밀 수 없습니다.
+message.CauseDirty= §d을(를) 더럽혔습니다.
+message.SufferDirty=§c누군가로 인해 더러워졌습니다.
+message.NotClear=§c아직 때를 밀 수 없습니다.
+message.NotDirt=§c밀 수 있는 때가 없습니다.
+message.GetDirt=§c땀으로 인해 더러워졌습니다. 
+
+message.HotWaterJoin=§c온탕§f에 입장하셨습니다. §a1분동안 머물러야 때를 밀 수 있습니다.
+message.ColdWaterJoin=§b냉탕§f에 입장하셨습니다. §a3분동안 머물러야 때를 밀 수 있습니다.
+message.JjimjilbangJoin=§6찜질방§f에 입장하셨습니다. §a땀으로 인해 몸이 점점 더러워집니다.
+message.ZoneOut=§a사우나에서 나오셨습니다.
+message.CanClear=§b이제 때를 밀 수 있습니다.
+message.GameOver=§4너무 더러워져서 목욕탕에서 쫓겨나셨습니다.
+
+message.UseTowel=§a때를 밀었습니다.
+
+message.ResetDirt=§a당신은 완전히 깨끗해졌습니다.
+message.ResetWater=§a당신의 갈증이 완전히 해소되었습니다.
+message.ResetGauge=§a당신의 피로가 완전히 풀렸습니다.
+
+message.Eat=§a허기가 채워졌습니다.
+message.Drink=§a갈증이 해소되었습니다.

@@ -1,0 +1,7 @@
+
+#Items
+item.blue_water_gun.name=§9Blue Water Gun
+item.yellow_water_gun.name=§eYellow Water Gun
+
+#Tabs
+itemGroup.tab_kong_agent=§aKong Agent Tab

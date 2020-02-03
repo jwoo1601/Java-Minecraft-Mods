@@ -1,0 +1,65 @@
+integer, floating number, string, null, array
+
+#package Std.Component;
+
+#javaclass renderer = JavaImport("dsf", "");
+
+#renderer StandardRenderer {
+  lang = "javascript";
+  targetClass = "outa";
+  renderState = <>;
+  isAnimation = true;
+  
+  #js {
+	var A = 50;
+	
+	function outa(a) {
+		print(a);
+		return false;
+		tan();
+		prototype a;
+	}
+  }
+}
+
+[editoronly, global]
+#component Test {
+	[$editoronly]
+	parent = JSImport("");
+	
+}
+
+attribute Toggle : {container, property}
+[]
+container layout {
+	property a : container;
+	element b : string;
+}
+
+[Toggle]
+#layout WinWarp {
+	[global=d]
+	@renderer = SRenderer; // global property
+	[game, editoronly]
+    @action = SAction;
+  
+  #window afre {
+	[@render]
+    x = 30; // Element
+	y = 30;//hjkhk
+	renderer = #renderer testrenderer;
+	@renderer = #renderer(testrenderer);
+	#component { // Node
+	  #button {
+		
+	  }
+	  
+	  #scrollbar{
+	  }
+	  
+	  #testscrollbar {
+	    
+	  }
+	}
+  }
+}

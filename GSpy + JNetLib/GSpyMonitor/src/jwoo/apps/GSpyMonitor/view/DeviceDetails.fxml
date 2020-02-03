@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.TextFlow?>
+
+<AnchorPane prefHeight="500.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <SplitPane dividerPositions="0.95" orientation="VERTICAL" prefHeight="500.0" prefWidth="1000.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <SplitPane dividerPositions="0.35" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="498.0" prefWidth="346.0">
+                           <children>
+                              <TitledPane animated="false" layoutX="14.0" layoutY="14.0" text="Screen">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="320.0">
+                                       <children>
+                                          <ImageView fitHeight="180.0" fitWidth="320.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@../../../../../../../../../Desktop/양식/배경화면.png" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </TitledPane>
+                              <VBox layoutX="14.0" layoutY="340.0" prefHeight="116.0" prefWidth="320.0" spacing="10.0">
+                                 <children>
+                                    <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="322.0" text="Start Control" />
+                                    <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="320.0" text="Shutdown" />
+                                    <Button mnemonicParsing="false" prefHeight="31.0" prefWidth="320.0" text="Restart" />
+                                 </children>
+                              </VBox>
+                              <TitledPane animated="false" layoutX="14.0" layoutY="225.0" prefHeight="109.0" prefWidth="322.0" text="PC Info">
+                                <content>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                       <children>
+                                          <TextFlow layoutX="60.0" layoutY="-40.0" prefHeight="85.0" prefWidth="320.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                </content>
+                              </TitledPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <TitledPane animated="false" prefHeight="369.0" prefWidth="634.0" text="Processes" AnchorPane.bottomAnchor="80.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0">
+                                 <content>
+                                    <TableView editable="true">
+                                      <columns>
+                                        <TableColumn prefWidth="40.0" resizable="false" text="Num" />
+                                        <TableColumn prefWidth="180.0" resizable="false" text="Name" />
+                                          <TableColumn prefWidth="100.0" resizable="false" text="CPU Usage (%)" />
+                                          <TableColumn prefWidth="100.0" resizable="false" text="RAM Usage (%)" />
+                                          <TableColumn prefWidth="222.0" resizable="false" text="Description" />
+                                      </columns>
+                                       <padding>
+                                          <Insets bottom="3.0" left="3.0" right="3.0" top="3.0" />
+                                       </padding>
+                                    </TableView>
+                                 </content>
+                              </TitledPane>
+                              <ButtonBar buttonOrder="L_HE+UNYACBXIO_R" layoutX="14.0" layoutY="396.0" prefHeight="58.0" prefWidth="627.0" AnchorPane.bottomAnchor="5.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="392.0">
+                                 <buttons>
+                                    <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" text="Command Prompt" translateX="-220.0" translateY="-20.0" />
+                                    <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" text="Kill" />
+                                    <Button layoutX="215.0" layoutY="18.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="130.0" text="Kill All" />
+                                 </buttons>
+                              </ButtonBar>
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+        </items>
+      </SplitPane>
+      <MenuBar prefWidth="1000.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Edit">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Delete" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem mnemonicParsing="false" text="About" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>

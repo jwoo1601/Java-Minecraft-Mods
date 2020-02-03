@@ -1,0 +1,16 @@
+
+common.mod.name=<Noah>Teleport Mod
+common.mod.description=This is a mod that provides functions, blocks, and items associated with Teleportation. You can use these Easily.
+
+common.place.generic.name=PLACE
+
+tile.teleportblock.name=Teleport Block
+itemGroup.teleporttab=Teleport Tab
+
+gui.teleport.labelown=Own Place
+gui.teleport.labellinked=Linked Place
+gui.teleport.labelplacename=Name
+gui.teleport.labelplacepos=Position
+gui.teleport.nolinkedplace=Not Linked
+gui.teleport.labelsave=Save All
+gui.teleport.labelnotselected=Not Selected

@@ -1,0 +1,16 @@
+[
+{
+  "modid": "hastestick",
+  "name": "성급함 막대기 모드",
+  "description": "콩외잡팀에서 요청하신 성급함 막대기 및 운영자 관련 명령어를 추가해주는 모드입니다(서버전용)",
+  "version": "1.1.5-release",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["jwoo__"],
+  "credits": "jwoo__",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

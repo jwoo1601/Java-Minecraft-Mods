@@ -1,0 +1,53 @@
+
+imu.info.name=Improved Minecraft Utility
+imu.info.desc=This is a Server-Only Mod that provides variant utilities designed to User-Friendly.
+
+imu.permission.admin=Admin
+imu.permission.default=Default
+
+imu.bg.name=Block Guard
+imu.bg.desc=IMU Addon : Block Guard
+
+imu.blockguard.command.name=Block Guard Command
+imu.blockguard.command.usage=/bg (Arguments...)
+imu.blockguard.command.sub[0]=state
+imu.blockguard.command.sub[1]=tool
+imu.blockguard.command.sub[2]=enable
+imu.blockguard.command.sub[3]=disable
+imu.blockguard.command.sub[4]=add
+imu.blockguard.command.sub[5]=remove
+imu.blockguard.command.sub[6]=mode
+imu.blockguard.command.sub[6].args[0]=protect
+imu.blockguard.command.sub[6].args[1]=unprotect
+imu.blockguard.command.sub[7]=range
+imu.blockguard.command.sub[7].args[0]=all
+imu.blockguard.command.sub[7].args[1]=part
+imu.blockguard.command.sub[8]=list
+imu.blockguard.command.sub[9]=cache
+
+################################ Output #################################
+imu.blockguard.info.message[0]=Got The Tool
+imu.blockguard.info.message[1]=Block Guard is §bEnabled
+imu.blockguard.info.message[2]=Block Guard is §7Disabled
+imu.blockguard.info.message[3]=The region §6%s §fis successfully §aAdded
+imu.blockguard.info.message[4]=The Region §6%s §fis successfully §9Removed
+imu.blockguard.info.message[5]=Mode has been set to §6%s
+imu.blockguard.info.message[6]=Range has been set to §6%s
+
+imu.blockguard.error.message[0]=Set Region before Executing Command!
+imu.blockguard.error.message[1]=There is no Empty Slot in your inventory!
+imu.blockguard.error.message[2]=Block Guard is already %s!
+imu.blockguard.error.message[3]=The Region already Exists!
+imu.blockguard.error.message[4]=The Region does not Exist!
+imu.blockguard.error.message[5]=There is no Region matches What you've Set!
+imu.blockguard.error.message[6]=Mode has already been set to %s!
+imu.blockguard.error.message[7]=Range has already been set to %s!
+
+imu.common.error.message[0]=Wrong Command!
+imu.common.error.message[1]=Wrong Access!
+imu.common.error.message[2]=No Permission to execute this Command! 
+#########################################################################
+
+imu.bg.tool.name=Block Guard Tool
+imu.bg.tool.leftclick.msg=Origin Pos has been set to §b(%d, %d, %d)
+imu.bg.tool.rightclick.msg=End Pos has been set to §b(%d, %d, %d)

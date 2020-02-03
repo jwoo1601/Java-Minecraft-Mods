@@ -1,0 +1,16 @@
+*.zip
+tmp
+.gradle
+.settings
+bin
+build
+eclipse
+gradle
+run
+*.txt
+*.rar
+runtime-EclipseApplication
+Netty
+RemoteSystemsTempFiles
+.metadata
+.recommenders

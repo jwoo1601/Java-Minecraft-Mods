@@ -1,0 +1,26 @@
+
+#Blocks
+tile.pollutedStone.name=오염된 돌
+tile.stairsPollutedStone.name=오염된 돌 계단
+tile.darkStone.name=진한 돌
+tile.stairsDarkStone.name=진한 돌 계단
+tile.darkStoneSlab.name=진한 돌 반 블록
+tile.transparent.name=투명 블록
+tile.metal.name=쇠 블록
+tile.corrodedStoneSlab.name=부식된 돌 반 블록
+tile.corrodedDarkStoneSlab.name=부식된 진한 돌 반 블록
+tile.pollutedSand.name=오염된 모래
+tile.metalPillar.name=쇠 기둥
+tile.spongeSlab.name=스펀지 반 블록
+tile.spongeFence.name=스펀지 울타리
+tile.metalSlab.name=철판 반 블록
+tile.gold.name=금 블록
+tile.metalStairs.name=쇠 계단
+tile.metalSlabPlain.name=쇠 반 블록
+
+#Items
+item.3kids.name=삼꼬맹이
+item.transparent.name=투명 블록
+
+#Creative Tabs
+itemGroup.3kids=§6삼꼬맹이 탭

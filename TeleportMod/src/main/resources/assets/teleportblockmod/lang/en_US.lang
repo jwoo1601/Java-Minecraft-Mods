@@ -1,0 +1,22 @@
+
+mod.name=Teleport Block Mod
+mod.description=(※This  is a Test Version so there might be some bugs) This is a mod that adds a block make players teleported where has already been saved. More informations are written in "README" File.
+
+tile.teleport_block.name=Teleport Block
+
+command.common.err0=The Command has not been used Properly!
+
+command.registerplace.name=Register Place Command
+command.registerplace.usage=register <tag>|list
+command.registerplace.err0=You have no permission to Execute this Command!
+command.registerplace.err1=The Place Name already Exists!
+command.registerplace.err2=The Block you want to register is not a Teleport Block!
+command.registerplace.success=The Place has successfully been registered!
+
+command.linkblock.name=Link Block Command
+command.linkblock.usage=link <place>|list
+command.linkblock.success=The Teleport Block has successfully been linked!
+command.linkblock.err0=The Place is not Exist!
+
+message.teleport.pre=Teleporting...
+message.teleport.post=You've been Teleported!

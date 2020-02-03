@@ -1,0 +1,26 @@
+{
+    "shop.slot.success": {
+        "category": "player",
+        "sounds": [ "shop/coin" ]
+    },
+
+    "shop.slot.fail": {
+        "category": "player",
+        "sounds": [ "shop/error" ]
+    },
+
+    "shop.open": {
+        "category": "player",
+        "sounds": [ "shop/open" ]
+    },
+
+    "shop.close": {
+        "category": "player",
+        "sounds": [ "shop/close" ]
+    },
+
+    "shop.chicken": {
+        "category": "player",
+        "sounds": [ "shop/chicken" ]
+    }
+}

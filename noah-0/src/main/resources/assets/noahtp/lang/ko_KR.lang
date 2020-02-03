@@ -1,0 +1,17 @@
+
+
+common.mod.name=<Noah>텔레포트 모드
+common.mod.description=이 모드는 텔레포트와 관련된 블록, 아이템, 기능들을 제공해주는 모드입니다. 쉽게 사용하실 수 있습니다.
+
+common.place.generic.name=장소
+
+tile.teleportblock.name=텔레포트 블록
+itemGroup.teleporttab=텔레포트 탭
+
+gui.teleport.labelown=현재 장소
+gui.teleport.labellinked=연결된 장소
+gui.teleport.labelplacename=이름
+gui.teleport.labelplacepos=위치
+gui.teleport.nolinkedplace=연결 안 됨
+gui.teleport.labelsave=모두 저장
+gui.teleport.labelnotselected=선택 안 함

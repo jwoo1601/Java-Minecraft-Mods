@@ -1,0 +1,24 @@
+
+#Items
+item.3kids.name=3Kids
+item.universalWand.none.name=§73Kids Universal Wand
+item.universalWand.direction.name=§bDirection Setting Wand
+item.universalWand.setup.name=Team's Member Setup Wand
+item.universalWand.teamChest.name=Team's Chest Open Wand
+item.universalWand.setTeamChest.name=Team's Chest Setting Wand
+item.universalWand.setWarpData.name=Team's Flower Shop Setting Wand
+item.flowerBouquet.blowBall.name=Bouquet of Blow Ball
+item.flowerBouquet.pansyBrown.name=Bouquet of Brown Pansy
+item.flowerBouquet.gardenia.name=Bouquet of Gardenia
+item.flowerBouquet.houstonia.name=Bouquet of Houstonia
+item.flowerBouquet.oxeyeDaisy.name=Bouquet of Oxeye Daisy
+item.flowerBouquet.peony.name=Bouquet of Peony
+item.flowerBouquet.tulipPink.name=Bouquet of Pink Tulip
+item.flowerBouquet.roseRed.name=Bouquet of Red Rose
+item.twine.name=Twine
+item.wrapper.name=Wrapper
+item.warpClock.name=Warp Clock
+item.attackTicket.name=§6Disposable Attack Ticket
+
+#Creative Tabs
+itemGroup.3kids=§63Kids Tab

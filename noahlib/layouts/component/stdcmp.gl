@@ -1,0 +1,28 @@
+#define LAYOUT
+#define STANDARD
+
+// Copyright (C) Noah 2016 All Rights Reserved.
+// Author : jwoo
+
+package window;
+
+interface cmp IWindow {
+  public bool isEnabled;
+  public bool isVisible;
+
+  public string title;
+  
+  public int x, y;
+  public int width, height;  
+  
+  public IComponent[]
+}
+
+interface cmp IButton {
+ public int x = 0, y = 0;
+ public int width, height;
+ 
+ protected tex default;
+ protected tex over;
+ protected tex click;
+}

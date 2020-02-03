@@ -1,0 +1,26 @@
+
+#Blocks
+tile.pollutedStone.name=Polluted Stone
+tile.stairsPollutedStone.name=Polluted Stone Stairs
+tile.darkStone.name=Dark Stone
+tile.stairsDarkStone.name=Dark Stone Stairs
+tile.darkStoneSlab.name=Dark Stone Slab
+tile.transparent.name=Transparent Block
+tile.metal.name=Metal Block
+tile.corrodedStoneSlab.name=Corroded Stone Slab
+tile.corrodedDarkStoneSlab.name=Corroded Dark Stone Slab
+tile.pollutedSand.name=Polluted Sand
+tile.metalPillar.name=Metal Pillar
+tile.spongeSlab.name=Sponge Slab
+tile.spongeFence.name=Sponge Fence
+tile.metalSlab.name=Metal Slab
+tile.gold.name=Gold Block
+tile.metalStairs.name=Metal Stairs
+tile.metalSlabPlain.name=Plain Metal Slab
+
+#Items
+item.3kids.name=3Kids
+tile.transparent.name=Transparent Block
+
+#Creative Tabs
+itemGroup.3kids=§63Kids Tab

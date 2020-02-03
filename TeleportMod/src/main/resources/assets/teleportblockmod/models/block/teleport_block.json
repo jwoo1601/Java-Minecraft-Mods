@@ -1,0 +1,12 @@
+{
+    "parent": "block/cube",
+    "textures": {
+         "down": "teleportblockmod:blocks/teleportblock",
+           "up": "teleportblockmod:blocks/teleportblock_top",
+        "north": "teleportblockmod:blocks/teleportblock",
+        "south": "teleportblockmod:blocks/teleportblock",
+         "west": "teleportblockmod:blocks/teleportblock",
+         "east": "teleportblockmod:blocks/teleportblock",
+     "particle": "blocks/lapis_block"
+    }
+}

@@ -1,0 +1,53 @@
+﻿
+imu.info.name=향상된 마인크래프트 유틸리티
+imu.info.desc=사용자에게 친숙하게 만들어진 여러 유틸리티를 제공해주는 서버 전용 모드입니다.
+
+imu.permission.admin=관리자
+imu.permission.default=기본
+
+imu.blockguard.name=블럭가드
+imu.blockguard.desc=IMU 애드온 : 블럭가드
+
+imu.blockguard.command.name=블럭 가드 명령어
+imu.blockguard.command.usage=/블럭가드 (인수...)
+imu.blockguard.command.sub[0]=상태
+imu.blockguard.command.sub[1]=도구
+imu.blockguard.command.sub[2]=활성화
+imu.blockguard.command.sub[3]=비활성화
+imu.blockguard.command.sub[4]=추가
+imu.blockguard.command.sub[5]=제거
+imu.blockguard.command.sub[6]=모드
+imu.blockguard.command.sub[6].args[0]=보호
+imu.blockguard.command.sub[6].args[1]=비보호
+imu.blockguard.command.sub[7]=범위
+imu.blockguard.command.sub[7].args[0]=전체
+imu.blockguard.command.sub[7].args[1]=부분
+imu.blockguard.command.sub[8]=목록
+imu.blockguard.command.sub[9]=캐시
+
+################################ Output #################################
+imu.blockguard.info.message[0]=도구가 지급되었습니다
+imu.blockguard.info.message[1]=블럭가드가 §3활성화 §f되었습니다
+imu.blockguard.info.message[2]=블럭가드가 §7비활성화 §f되었습니다
+imu.blockguard.info.message[3]=지역: §6%s이 §f성공적으로 §a추가§f되었습니다
+imu.blockguard.info.message[4]=지역: §6%s이 §f성공적으로 §9제거§f되었습니다
+imu.blockguard.info.message[5]=모드가 §6%s§f로 설정되었습니다
+imu.blockguard.info.message[6]=범위가 §6%s§f로 설정되었습니다
+
+imu.blockguard.error.message[0]=명령어를 실행하기 전에 범위를 설정해주세요
+imu.blockguard.error.message[1]=인벤토리에 빈 공간이 없습니다
+imu.blockguard.error.message[2]=블럭가드가 이미 %s 되어 있습니다
+imu.blockguard.error.message[3]=해당 지역이 이미 존재합니다
+imu.blockguard.error.message[4]=해당 지역이 존재하지 않습니다
+imu.blockguard.error.message[5]=지정한 범위에 해당하는 지역이 없습니다
+imu.blockguard.error.message[6]=모드가 이미 %s모드로 설정되어 있습니다
+imu.blockguard.error.message[7]=범위가 이미 %s로 설정되어 있습니다
+
+imu.common.error.message[0]=명령어가 틀렸어!
+imu.common.error.message[1]=잘못된 접근이야!
+imu.common.error.message[2]=넌 권한이 없어! 
+#########################################################################
+
+imu.blockguard.tool.name=[블럭가드]설정 도구
+imu.blockguard.tool.leftclick.msg=기준 좌표: §b(%d, %d, %d)
+imu.blockguard.tool.rightclick.msg=끝 좌표: §b(%d, %d, %d)

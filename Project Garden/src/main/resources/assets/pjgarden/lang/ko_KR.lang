@@ -1,0 +1,24 @@
+
+#Items
+item.3kids.name=삼꼬맹이
+item.universalWand.none.name=§7삼꼬맹이 다용도 완드
+item.universalWand.direction.name=§b꽃말 방향 설정 완드
+item.universalWand.setup.name=팀 멤버 설정 완드
+item.universalWand.teamChest.name=팀 창고 열기 완드
+item.universalWand.setTeamChest.name=팀 창고 설정 완드
+item.universalWand.setWarpData.name=팀 꽃가게 설정 완드
+item.flowerBouquet.blowBall.name=하얀색 민들레 꽃다발
+item.flowerBouquet.pansyBrown.name=갈색 팬지 꽃다발
+item.flowerBouquet.gardenia.name=치자 꽃다발
+item.flowerBouquet.houstonia.name=푸른 삼백초 꽃다발
+item.flowerBouquet.oxeyeDaisy.name=데이지 꽃다발
+item.flowerBouquet.peony.name=작약 꽃다발
+item.flowerBouquet.tulipPink.name=분홍색 튤립 꽃다발
+item.flowerBouquet.roseRed.name=빨간 장미 꽃다발
+item.twine.name=끈
+item.wrapper.name=포장지
+item.warpClock.name=이동 시계
+item.attackTicket.name=§6일회용 공격권
+
+#Creative Tabs
+itemGroup.3kids=§6삼꼬맹이 탭

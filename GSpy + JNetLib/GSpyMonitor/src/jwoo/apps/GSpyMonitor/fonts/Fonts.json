@@ -1,0 +1,24 @@
+#fonts
+
+{
+	"font-family":
+	[
+		{
+			"name": "NanumGothic",
+			"content":
+			[
+				{
+					"type": "default",
+					"path": "NanumGothic.ttf",
+					"size": 10
+				},
+	
+				{
+					"type": "bold",
+					"path": "NanumGothicBold.ttf",
+					"size": 10
+				}
+			]
+		}
+	]
+}
